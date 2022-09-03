@@ -1,11 +1,16 @@
 # -*- coding: utf-8 -*-
-from dash import Dash
-from dash.long_callback import DiskcacheLongCallbackManager
+import os
+from dash import Dash, html
 from dash_bootstrap_components.themes import FLATLY as theme
-import diskcache
+from pages import layout
 
-cache = diskcache.Cache("./cache")
-long_callback_manager = DiskcacheLongCallbackManager(cache)
-app = Dash(__name__, external_stylesheets=[theme], long_callback_manager=long_callback_manager)
+app = Dash(__name__, external_stylesheets=[theme])
 app.title = "Derick's Portfolio Website"
 server = app.server
+
+app.layout = layout.layout
+
+if __name__ == "__main__":
+    port = os.getenv("PORT", "8050")
+    debug = os.getenv("DEBUG") == "true"
+    app.run_server(host="0.0.0.0", port=port, debug=True)
