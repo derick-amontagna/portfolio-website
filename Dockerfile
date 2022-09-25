@@ -13,7 +13,7 @@ ENV LANG C.UTF-8
 
 RUN apt-get update && \
         apt-get install -y --no-install-recommends apt-utils && \
-        apt-get install curl && \
+        apt-get install -y curl && \
         apt-get install -y \
         software-properties-common \
         python3-software-properties \
