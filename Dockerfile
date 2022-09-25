@@ -35,13 +35,9 @@ RUN make flake8 && \
     make black && \
     make pytest
 
-
-FROM base AS dist
-RUN curl -sSL https://sdk.cloud.google.com | bash
-ENV PATH "/root/google-cloud-sdk/bin:${PATH}"
-
 RUN poetry config virtualenvs.create false && poetry install --no-dev
 COPY ./ /application
+
 
 EXPOSE 8080
 CMD ["make", "app"]

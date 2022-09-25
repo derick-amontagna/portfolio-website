@@ -5,10 +5,10 @@ install:
 	poetry install
 
 app-dry:
-	export DEBUG=true; export LOGLEVEL=DEBUG; poetry run python app.py
+	poetry run python app.py
 
 app:
-	poetry run gunicorn index:server --bind="0.0.0.0:${PORT}" --timeout ${TIMEOUT}
+	poetry run gunicorn app:server --bind="0.0.0.0:${PORT}" --timeout ${TIMEOUT}
 
 flake8:
 	git ls-files '*.py' | poetry run flake8 --count
@@ -25,3 +25,5 @@ pytest:
 docker-dry:
 	docker build . -t derick-portfolio && docker run -p 8080:8080 derick-portfolio
 
+update-requirements:
+	poetry export -f requirements.txt --output requirements.txt --without-hashes --dev
