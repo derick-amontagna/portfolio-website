@@ -31,9 +31,7 @@ RUN poetry config virtualenvs.create false && poetry install
 COPY ./ /application
 
 RUN make flake8 && \
-    make pylint && \
-    make black && \
-    make pytest
+    make black
 
 RUN poetry config virtualenvs.create false && poetry install --no-dev
 COPY ./ /application

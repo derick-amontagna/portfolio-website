@@ -1,5 +1,4 @@
 import dash_bootstrap_components as dbc
-from dash import dcc
 
 navbar = dbc.NavbarSimple(
     children=[
@@ -15,9 +14,9 @@ navbar = dbc.NavbarSimple(
     color="dark",
     sticky="top",
     dark=True,
-    class_name ={
-    "margin-left": "18rem",
-    "margin-right": "2rem",
-    "padding": "2rem 1rem",
-}
+    class_name={
+        "margin-left": "18rem",
+        "margin-right": "2rem",
+        "padding": "2rem 1rem",
+    },
 )
