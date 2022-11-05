@@ -8,10 +8,10 @@ app-dry:
 	poetry run python index.py
 
 app:
-	poetry run gunicorn app:server --bind="0.0.0.0:${PORT}" --timeout ${TIMEOUT}
+	poetry run gunicorn index:server --bind="0.0.0.0:${PORT}" --timeout ${TIMEOUT}
 
 flake8:
-	git ls-files '*.py' | poetry run flake8 --count
+	git ls-files '*.py' | poetry run flake8 --count apps
 
 pylint:
 	git ls-files '*.py' | xargs poetry run pylint --disable=duplicate-code --fail-under=9.5

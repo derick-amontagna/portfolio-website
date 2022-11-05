@@ -2,6 +2,7 @@
 import os
 from dash import html
 from app import app
+from app import server
 from apps import pages_front
 import apps.en.layout
 import apps.en.callbacks
@@ -12,7 +13,7 @@ app.layout = pages_front.layout
 
 app.validation_layout = html.Div(
     [
-        apps.pages_front.layout,
+        pages_front.layout,
         apps.en.layout.layout,
         apps.pt.layout.layout,
     ]
