@@ -1,4 +1,4 @@
-from dash import html, dcc
+from dash import dcc
 import dash_bootstrap_components as dbc
 
 layout = dbc.Container(
@@ -15,6 +15,6 @@ layout = dbc.Container(
                 dcc.Markdown(open("data/en/workExperience.txt", "r").read()),
                 style={"textAlign": "left"},
             )
-        )
+        ),
     ]
 )

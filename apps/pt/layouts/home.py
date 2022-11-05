@@ -1,6 +1,5 @@
 from dash import html, dcc
 import dash_bootstrap_components as dbc
-import apps.pt.components as cp
 
 
 image_path = "assets/indice.png"
@@ -25,8 +24,6 @@ layout = dbc.Container(
         dbc.Row(
             dbc.Col(dcc.Markdown("""## Sumário """, id="sumario"), style={"textAlign": "left"})
         ),
-        dbc.Row(
-            dbc.Col(dcc.Markdown(open("data/pt/summary.txt", "r").read()))
-        )
+        dbc.Row(dbc.Col(dcc.Markdown(open("data/pt/summary.txt", "r").read()))),
     ]
 )

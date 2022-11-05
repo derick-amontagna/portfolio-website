@@ -1,5 +1,4 @@
-import os
-from dash import Dash, html
+from dash import Dash
 from dash_bootstrap_components.themes import FLATLY as theme
 
 app = Dash(
@@ -9,6 +8,7 @@ app = Dash(
 )
 app.title = "Derick's Portfolio Website"
 server = app.server
+
 
 @server.route("/health/liveness/")
 def liveness():

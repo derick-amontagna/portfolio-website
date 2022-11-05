@@ -8,6 +8,7 @@ from apps.pt.layouts import work_experience
 from apps.pt.layouts import skills
 from apps.pt.layouts import social_media
 
+
 @app.callback(Output("page-content-pt", "children"), [Input("url-pt", "pathname")])
 def render_page_content_pt(pathname):
     if pathname == "/":

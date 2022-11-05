@@ -1,5 +1,4 @@
 from dash import html, dcc
-import dash_bootstrap_components as dbc
 import apps.pt.components as cp
 from apps.style import CONTENT_STYLE
 

@@ -2,7 +2,6 @@
 import os
 from dash import html
 from app import app
-from app import server
 from apps import pages_front
 import apps.en.layout
 import apps.en.callbacks

@@ -1,4 +1,4 @@
-from dash import html, dcc
+from dash import dcc
 import dash_bootstrap_components as dbc
 
 layout = dbc.Container(
@@ -12,8 +12,9 @@ layout = dbc.Container(
         ),
         dbc.Row(
             dbc.Col(
-                dcc.Markdown(open("data/pt/publications.txt", "r").read()), style={"textAlign": "left"}
+                dcc.Markdown(open("data/pt/publications.txt", "r").read()),
+                style={"textAlign": "left"},
             )
-        )
+        ),
     ]
 )

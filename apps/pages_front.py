@@ -1,25 +1,15 @@
-from dash import html, dcc, Input, Output
+from dash import html
 import dash_bootstrap_components as dbc
-
-from app import app
 import apps.en.layout as en
 import apps.pt.layout as pt
 
 tab1_content = dbc.Card(
-    dbc.CardBody(
-        [
-            en.layout
-        ]
-    ),
+    dbc.CardBody([en.layout]),
     className="mt-3",
 )
 
 tab2_content = dbc.Card(
-    dbc.CardBody(
-        [
-            pt.layout
-        ]
-    ),
+    dbc.CardBody([pt.layout]),
     className="mt-3",
 )
 
