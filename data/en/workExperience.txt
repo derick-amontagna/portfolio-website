@@ -1,0 +1,31 @@
+**3778**, Florianopolis, Brazil, 03/2022-Present.
+
+- *Junior Data Scientist*, 2022-Present
+
+**CantuStore**, Itajai, Brazil, 04/2021-03/2022.
+
+- *Junior Data Analyst*, 01/2022 - 03/2022
+1. Hard skills: Python, SQL, Flask, Selenium, PySpark, Azure Data Factory, Azure Blob Storage, Databricks, Koalas, Power BI, Salesforce, S/4 Hana and Agile Methodology.
+2. Activities:
+
+Query and extraction of relational databases (Salesforce, SAP S\4 Hana APIs, Hybris and REST APIs) and data processing via SQL;
+
+Creation of procedures for incremental SQL extraction procedures from relational databases;
+
+Azure Data Factory - ETL construction, creation and configuration of Pipelines and Datasets;
+
+Azure Databricks - Data transformation and treatment with Python (PySpark, Pandas, Koalas) and SQL;
+
+Power BI: Building reports and dashboard with responsive interface for Desktop and Mobile;
+
+Azure Services - REST API development with Flask and bots (Win32, Selenium) in Python;
+
+Use of SAP Software (S/4 HANA Cloud and Hybris) and Salesforce;
+
+Atlassian Softwares (Jira and Confluence) for Agile;
+
+Azure DevOps.
+
+- *Mid-level Data Assistant*, 08/2021 - 01/2022
+
+- *Junior Data Assistant*, 04/2021 - 08/2021

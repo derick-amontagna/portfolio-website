@@ -1,0 +1,9 @@
+**Mestrado, Engenharia Elétrica**, *Universidade Federal de Santa Catarina | UFSC*, 2022-2024
+
+**Graduação em Engenharia Elétrica**, *Universidade do Vale do Itajaí | Univali*, 2017-2021
+
+- Honras de Primeira Classe: 9,15/10
+- Trabalho de Conclusão de Curso com Deep Learning
+- Classificação automática para o diagnóstico de lesões de pele usando rede neural convolucional profunda com modelos de transferência de aprendizado
+- Orientador: Rudimar Dazzi
+- Apresentação: https://www.youtube.com/watch?v=NEUdubxxoGg

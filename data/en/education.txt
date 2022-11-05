@@ -1,0 +1,9 @@
+**Master's degree, Electrical Engineering**, *Federal University of Santa Catarina | UFSC*,  2022-2024
+
+**Bachelor's degree, Electrical Engineering**, *University of Vale do Itajai | Univali*,  2017-2021
+
+- First Class Honours: 9,15/10
+- Undergraduate thesis with Deep Learning 
+- Automatic classification for skin lesion diagnosis using deep convolutional neural network with models transfer learning
+- Advisor: Rudimar Dazzi
+- Presentation: https://www.youtube.com/watch?v=NEUdubxxoGg

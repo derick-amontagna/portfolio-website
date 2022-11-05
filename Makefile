@@ -5,7 +5,7 @@ install:
 	poetry install
 
 app-dry:
-	poetry run python app.py
+	poetry run python index.py
 
 app:
 	poetry run gunicorn app:server --bind="0.0.0.0:${PORT}" --timeout ${TIMEOUT}
