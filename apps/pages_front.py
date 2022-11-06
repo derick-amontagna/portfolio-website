@@ -17,7 +17,7 @@ tab2_content = dbc.Card(
 tabs = dbc.Tabs(
     [
         dbc.Tab(tab1_content, label="en", tab_style={"marginLeft": "auto"}),
-        dbc.Tab(tab2_content, label="pt"),
+        dbc.Tab(tab2_content, label="pt-br"),
     ]
 )
 

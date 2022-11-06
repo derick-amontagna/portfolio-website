@@ -1,12 +1,13 @@
 **3778**, Florianópolis, Brasil, 03/2022-Presente.
 
-- *Cientista de Dados Júnior*, 2022-presente
+- *Cientista de Dados Júnior*, 2022-Presente
 
 **CantuStore**, Itajaí, Brasil, 04/2021-03/2022.
 
 - *Analista de Dados Júnior*, 01/2022 - 03/2022
 1. Habilidades: Python, SQL, Flask, Selenium, PySpark, Azure Data Factory, Azure Blob Storage, Databricks, Koalas, Power BI, Salesforce, S/4 Hana e Agile Methodology.
 2. Atividades:
+
 Consulta e extração de bancos de dados relacionais (Salesforce, SAP S\4 Hana APIs, Hybris e REST APIs) e processamento de dados via SQL;
 
 Criação de procedimentos para procedimentos de extração incremental de SQL de bancos de dados relacionais;
@@ -25,6 +26,6 @@ Atlassian Softwares (Jira e Confluence) para Agile;
 
 Azure DevOps.
 
-- *Assistente de Dados Pleno, 08/2021 - 01/2022
+- *Assistente de Dados Pleno*, 08/2021 - 01/2022
 
 - *Assistente de Dados Júnior*, 04/2021 - 08/2021
