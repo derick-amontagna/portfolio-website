@@ -1,0 +1,4 @@
+#### In Portuguese - BR
+-  D. A. Montagna, W. D. Parreira, A. M. da R. Fernandes, R. L. S. Dazzi, [`"Classificação Automática para Auxílio no Diagnóstico de Lesões de Pele Usando Deep Convolucional Neural Network com Modelos de Transfer Learning"`](https://periodicos.univali.br/index.php/acotb/article/view/18814/10803), Computer on the Beach 2022, 2022.
+
+

@@ -1,0 +1,4 @@
+#### Aprendizado profundo
+-  Aplicação em visão computacional --> [`Segmentação de ressonância magnética cerebral`](https://dagshub.com/derick-amontagna/vc-brain-mr-segmentation)
+
+

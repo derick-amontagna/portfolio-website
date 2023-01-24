@@ -15,7 +15,6 @@ sidebar = html.Div(
                 dbc.NavLink("Educação", href="/Education", active="exact"),
                 dbc.NavLink("Publicações", href="/Publications", active="exact"),
                 dbc.NavLink("Experiencia de trabalho", href="/Work-Experience", active="exact"),
-                dbc.NavLink("Habilidades", href="/Skills", active="exact"),
                 dbc.NavLink("Projetos", href="/Projects", active="exact"),
                 dbc.NavLink("Rede Sociais", href="/Social-Media", active="exact"),
             ],

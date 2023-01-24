@@ -5,7 +5,6 @@ from apps.en.layouts import education
 from apps.en.layouts import projects
 from apps.en.layouts import publications
 from apps.en.layouts import work_experience
-from apps.en.layouts import skills
 from apps.en.layouts import social_media
 
 
@@ -19,8 +18,6 @@ def render_page_content_en(pathname):
         return publications.layout
     elif pathname == "/Work-Experience":
         return work_experience.layout
-    elif pathname == "/Skills":
-        return skills.layout
     elif pathname == "/Projects":
         return projects.layout
     elif pathname == "/Social-Media":

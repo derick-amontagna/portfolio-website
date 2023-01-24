@@ -1,0 +1,4 @@
+#### Deep Learning
+-  Computer vision aplication -->  [`brain mr segmentation`](https://dagshub.com/derick-amontagna/vc-brain-mr-segmentation)
+
+

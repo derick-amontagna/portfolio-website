@@ -5,7 +5,6 @@ from apps.pt.layouts import education
 from apps.pt.layouts import projects
 from apps.pt.layouts import publications
 from apps.pt.layouts import work_experience
-from apps.pt.layouts import skills
 from apps.pt.layouts import social_media
 
 
@@ -19,8 +18,6 @@ def render_page_content_pt(pathname):
         return publications.layout
     elif pathname == "/Work-Experience":
         return work_experience.layout
-    elif pathname == "/Skills":
-        return skills.layout
     elif pathname == "/Projects":
         return projects.layout
     elif pathname == "/Social-Media":
