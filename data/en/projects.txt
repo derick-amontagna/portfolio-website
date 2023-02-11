@@ -1,4 +1,6 @@
 #### Deep Learning
--  Computer vision aplication -->  [`brain mr segmentation`](https://dagshub.com/derick-amontagna/vc-brain-mr-segmentation)
+*  Computer vision applications
+    * [`Brain MRI segmentation`](https://dagshub.com/derick-amontagna/vc-brain-mr-segmentation)
+    * [`Classification of brain tumors on MRI`](https://dagshub.com/derick-amontagna/UFSCBrainTumorClassification)
 
 
