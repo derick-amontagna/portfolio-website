@@ -16,7 +16,7 @@ sidebar = html.Div(
                 dbc.NavLink("Publications", href="/Publications", active="exact"),
                 dbc.NavLink("Work Experience", href="/Work-Experience", active="exact"),
                 dbc.NavLink("Projects", href="/Projects", active="exact"),
-                dbc.NavLink("Social Media", href="/Social-Media", active="exact"),
+                dbc.NavLink("Contact", href="/Contact", active="exact"),
             ],
             vertical=True,
             pills=True,
@@ -26,7 +26,7 @@ sidebar = html.Div(
             [
                 html.Img(src=image_path, style={"height": "10%", "width": "10%"}),
                 html.A(
-                    "   Portfolio Source Code",
+                    "   Portfolio source code",
                     href="https://github.com/derick-amontagna/portfolio-website",
                     className="link",
                 ),

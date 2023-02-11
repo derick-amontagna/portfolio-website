@@ -5,7 +5,7 @@ from apps.pt.layouts import education
 from apps.pt.layouts import projects
 from apps.pt.layouts import publications
 from apps.pt.layouts import work_experience
-from apps.pt.layouts import social_media
+from apps.pt.layouts import contact
 
 
 @app.callback(Output("page-content-pt", "children"), [Input("url-pt", "pathname")])
@@ -20,6 +20,6 @@ def render_page_content_pt(pathname):
         return work_experience.layout
     elif pathname == "/Projects":
         return projects.layout
-    elif pathname == "/Social-Media":
-        return social_media.layout
+    elif pathname == "/Contact":
+        return contact.layout
     return home.layout
