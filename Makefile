@@ -23,7 +23,7 @@ pytest:
 	poetry run pytest --no-cov-on-fail --cov-fail-under=70 --cov-branch --cov-report=term --cov-report=html:htmlcov --cov=pages
 
 docker-dry:
-	docker build . -t derick-portfolio && docker run -p 8080:8080 derick-portfolio
+	docker build . -t portfolio-website && docker run -p 8080:8080 portfolio-website
 
 update-requirements:
 	poetry export -f requirements.txt --output requirements.txt --without-hashes --dev
